@@ -10,7 +10,7 @@ class Provider extends InheritedWidget {
   factory Provider({ Key key, Widget child }) {
 
     if ( _instancia == null ) {
-      _instancia = new Provider._internal(key: key, child: child );
+      _instancia =  Provider._internal(key: key, child: child );
     }
 
     return _instancia;
