@@ -127,9 +127,7 @@ class LoginPage extends StatelessWidget {
 
   Widget _crearBoton( LoginBloc bloc) {
 
-    // formValidStream
-    // snapshot.hasData
-    //  true ? algo si true : algo si false
+    
 
     return StreamBuilder(
       stream: bloc.formValidStream,
@@ -206,7 +204,7 @@ class LoginPage extends StatelessWidget {
             children: <Widget>[
               Icon( Icons.person_pin_circle, color: Colors.white, size: 100.0 ),
               SizedBox( height: 10.0, width: double.infinity ),
-              Text('Fernando Herrera', style: TextStyle( color: Colors.white, fontSize: 25.0 ))
+              Text('Andres Chaez', style: TextStyle( color: Colors.white, fontSize: 25.0 ))
             ],
           ),
         )
